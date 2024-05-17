@@ -9,3 +9,4 @@
 - **_Raíz cuadrada_**
 - **_Funciones trigonométricas (seno, coseno, tangente, etc.)_**
 - **_Redondeo_**
+- Exponenciación
