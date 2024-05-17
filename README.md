@@ -7,3 +7,4 @@
 - **_Valor absoluto_**
 - **_Potencia de un número elevado a otro_**
 - **_Raíz cuadrada_**
+- Funciones trigonométricas (seno, coseno, tangente, etc.)
