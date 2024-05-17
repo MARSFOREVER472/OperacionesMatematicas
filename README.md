@@ -10,4 +10,4 @@
 - **_Funciones trigonométricas (seno, coseno, tangente, etc.)_**
 - **_Redondeo_**
 - **_Exponenciación_**
-- _Logaritmo decimal_
+- **_Logaritmo decimal_**
