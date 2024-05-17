@@ -12,7 +12,9 @@ int main()
 
     // CÓMO OBTENER EL VALOR ABSOLUTO ENTRE ESTOS NÚMEROS...
 
-    printf("El valor absoluto de un number es %g y el de number2 es %g", fabs(number), fabs(number2));
+       // printf("El valor absoluto de un numero es %g y el de otro es %g", fabs(number), fabs(number2)); // VALOR ABSOLUTO DE UN NÚMERO.
+
+       printf("La raiz cuadrada de un numero es %g", sqrt(PI)); // RAÍZ CUADRADA DE UN NÚMERO.
 
     return 0;
 }
