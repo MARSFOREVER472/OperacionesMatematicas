@@ -6,3 +6,4 @@
 
 - **_Valor absoluto_**
 - **_Potencia de un número elevado a otro_**
+- Raíz cuadrada
