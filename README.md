@@ -8,4 +8,4 @@
 - **_Potencia de un número elevado a otro_**
 - **_Raíz cuadrada_**
 - **_Funciones trigonométricas (seno, coseno, tangente, etc.)_**
-- Redondeo
+- _Redondeo_
