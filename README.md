@@ -4,4 +4,4 @@
 
 **_El lenguaje C++ tiene una biblioteca de funciones matemáticas que se incluyen las de uso más común, por ejemplo:_**
 
-- Valor absoluto
+- _Valor absoluto_
