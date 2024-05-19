@@ -14,7 +14,9 @@ int main()
 
        // printf("El valor absoluto de un numero es %g y el de otro es %g", fabs(number), fabs(number2)); // VALOR ABSOLUTO DE UN NÚMERO.
 
-       printf("La raiz cuadrada de un numero es %g", sqrt(PI)); // RAÍZ CUADRADA DE UN NÚMERO.
+       // printf("La raiz cuadrada de un numero es %g", sqrt(PI)); // RAÍZ CUADRADA DE UN NÚMERO.
+
+    printf("El numero elevado a la potencia de otro numero es: %g", pow(number, number2)); // POTENCIA DE UN NÚMERO.
 
     return 0;
 }
