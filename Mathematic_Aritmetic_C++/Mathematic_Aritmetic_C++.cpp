@@ -16,7 +16,9 @@ int main()
 
        // printf("La raiz cuadrada de un numero es %g", sqrt(PI)); // RAÍZ CUADRADA DE UN NÚMERO.
 
-    printf("El numero elevado a la potencia de otro numero es: %g", pow(number, number2)); // POTENCIA DE UN NÚMERO.
+       // printf("El numero elevado a la potencia de otro numero es: %g", pow(number, number2)); // POTENCIA DE UN NÚMERO.
+
+    printf("El coseno de PI es: %g", cos(PI)); // COSENO DE UN NÚMERO PI (3.14159).
 
     return 0;
 }
