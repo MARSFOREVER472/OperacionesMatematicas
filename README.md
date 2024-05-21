@@ -1,6 +1,6 @@
 # OperacionesMatematicas
 
-En este capítulo aprenderemos a trabajar con lectura y escritura de archivos.
+En este tutorial aprenderemos a trabajar con lectura y escritura de archivos.
 
 ## math.h
 
