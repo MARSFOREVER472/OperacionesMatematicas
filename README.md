@@ -1,6 +1,6 @@
 # OperacionesMatematicas
 
-En este tutorial aprenderemos a echar una mirada mediante código con lectura y escritura de archivos.
+En este tutorial aprenderemos a echar una mirada mediante código más la lectura y escritura de archivos.
 
 ## math.h
 
