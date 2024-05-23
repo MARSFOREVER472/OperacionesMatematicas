@@ -18,7 +18,9 @@ int main()
 
        // printf("El numero elevado a la potencia de otro numero es: %g", pow(number, number2)); // POTENCIA DE UN NÚMERO.
 
-    printf("El coseno de PI es: %g", cos(PI)); // COSENO DE UN NÚMERO PI (3.14159).
+       // printf("El coseno de PI es: %g", cos(PI)); // COSENO DE UN NÚMERO PI (3.14159).
+
+          printf("El seno de PI es: %g", atan(PI)); // SENO DE UN NÚMERO PI (3.14159).
 
     return 0;
 }
