@@ -1,6 +1,6 @@
 # OperacionesMatematicas
 
-**_En este tutorial aprenderemos a echar una mirada mediante código más la lectura y escritura de archivos._**
+**_En este tutorial aprenderemos a echar una mirada mediante código más la lectura y escritura de archivos en C++._**
 
 ## math.h
 
