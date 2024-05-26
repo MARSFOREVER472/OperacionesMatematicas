@@ -4,7 +4,7 @@
 
 ## math.h
 
-**_El lenguaje C++ tiene una biblioteca o librería estándar de funciones matemáticas que se incluyen las de uso común,como por ejemplo:_**
+**_El lenguaje C++ tiene una biblioteca o librería estándar de funciones matemáticas que se incluyen las de uso común, como por ejemplo:_**
 
 - **_Valor absoluto_**
 - **_Potencia de un número elevado a otro_**
