@@ -15,16 +15,20 @@ int main()
     int opcion; // SE DEBE DE ELEGIR UNA OPCIÓN DEL MENÚ...
     float first = 1; // PRIMER NÚMERO A ELEGIR DE LA OPERACIÓN.
     float second = 1; // SEGUNDO NÚMERO A EFECTUAR LA OPERACIÓN.
+    float third = 1; // TERCER NÚMERO A EFECTUAR LA OPERACIÓN.
     float result; // RESULTADO FINAL.
 
-        cout << "********** SELECCIONE UNA OPERACION DEL 1 AL 4! **********" << endl;
+        cout << "********** SELECCIONE UNA OPERACION DEL 1 AL 8! **********" << endl;
         cin >> opcion;
 
-        cout << "INGRESE UN NUMERO" << endl;
+        cout << "INGRESE UN NUMERO: " << endl;
         cin >> first;
 
-        cout << "INGRESE OTRO NUMERO" << endl;
+        cout << "INGRESE OTRO NUMERO: " << endl;
         cin >> second;
+
+        cout << "INGRESE UN ULTIMO NUMERO: " << endl;
+        cin >> third;
 
         if (opcion == 1) // SUMAR 2 NÚMEROS
         {
@@ -48,6 +52,30 @@ int main()
         {
             cout << "**********DIVISION TOTAL DE 2 NUMEROS **********" << endl;
             result = first / second; // DIVISIÓN.
+        }
+
+        if (opcion == 5) // SUMAR 3 NÚMEROS
+        {
+            cout << "********** SUMA TOTAL DE 3 NUMEROS **********" << endl;
+            result = first + second + third; // SUMA.
+        }
+
+        if (opcion == 6) // RESTAR 3 NÚMEROS
+        {
+            cout << "********** RESTA TOTAL DE 3 NUMEROS **********" << endl;
+            result = first - second - third; // RESTA.
+        }
+
+        if (opcion == 7) // MULTIPLICAR 3 NÚMEROS
+        {
+            cout << "********** MULTIPLICACION TOTAL DE 3 NUMEROS **********" << endl;
+            result = first * second * third; // MULTIPLICACIÓN.
+        }
+
+        if (opcion == 8) // DIVIDIR 3 NÚMEROS
+        {
+            cout << "**********DIVISION TOTAL DE 3 NUMEROS **********" << endl;
+            result = first / second / third; // DIVISIÓN.
         }
 
         cout << result;
