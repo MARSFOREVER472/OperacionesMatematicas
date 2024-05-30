@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include <stdio.h>
 #include <math.h>
 
@@ -20,6 +21,14 @@ int main()
 
         cout << "********** SELECCIONE UNA OPERACION DEL 1 AL 8! **********" << endl;
         cin >> opcion;
+
+        // SI ES QUE ELIGIÓ UNA OPCIÓN NO EXISTENTE ENTRE ELLAS...
+
+        if (opcion != 1 && opcion != 2 && opcion != 3 && opcion != 4
+            && opcion != 5 && opcion != 6 && opcion != 7 && opcion != 8)
+        {
+            exit(EXIT_FAILURE); // FUNCIÓN QUE HACE PARA SALIR DEL PROGRAMA.
+        }
 
         cout << "INGRESE UN NUMERO: " << endl;
         cin >> first;
