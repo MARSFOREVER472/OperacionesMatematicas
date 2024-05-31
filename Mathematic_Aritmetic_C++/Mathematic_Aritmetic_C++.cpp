@@ -36,8 +36,8 @@ int main()
         cout << "INGRESE OTRO NUMERO: " << endl;
         cin >> second;
 
-        cout << "INGRESE UN ULTIMO NUMERO: " << endl;
-        cin >> third;
+        // cout << "INGRESE UN ULTIMO NUMERO: " << endl;
+        // cin >> third;
 
         if (opcion == 1) // SUMAR 2 NÚMEROS
         {
@@ -60,7 +60,15 @@ int main()
         if (opcion == 4) // DIVIDIR 2 NÚMEROS
         {
             cout << "**********DIVISION TOTAL DE 2 NUMEROS **********" << endl;
-            result = first / second; // DIVISIÓN.
+
+            if (second == 0)
+            {
+                cout << "INDETERMINADO" << endl;
+            }
+            else 
+            {
+                result = first / second; // DIVISIÓN.
+            }
         }
 
         if (opcion == 5) // SUMAR 3 NÚMEROS
